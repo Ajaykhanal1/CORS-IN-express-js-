@@ -8,7 +8,7 @@ app.use(cors({
 }));
 
 app.get('/',(req,res)=>{
-    res.send("CORS enabled for this frontend porn in 3000.");
+    res.send("CORS enabled for this frontend port in 3000.");
 });
 
 app.listen(3000);
